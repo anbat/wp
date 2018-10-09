@@ -1,10 +1,13 @@
 <?php
+
 $a=array(array(1,2,3),array(4,5,6),array(7,8,9));
 $b=array(array(7,8,9),array(4,5,6),array(1,2,3));
 $m=count($a);
 $n=count($a[2]);
 $p=count($b);
 $q=count($b[2]);
+
+
 
 echo "The First Matrix:"."<br/>";
 for($row=0;$row<$m;$row++)
@@ -22,7 +25,7 @@ for($row=0;$row<$p;$row++)
 		echo "<br/>";
 }
 
-echo "The Transpose for the First Matrix is:".<br/>"
+echo "The Transpose for the First Matrix is:"."<br/>";
 for($row=0;$row<$m;$row++)
 {
 	for($col=0;$col<$n;$col++)
@@ -62,3 +65,4 @@ if($n===$p)
 	}
 }
 ?>
+
