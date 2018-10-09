@@ -1,6 +1,6 @@
 <html>
 	<head>
-	<title>prgm 8a</title>
+	<title>SIMPLE CALCULATOR</title>
 		<style>
 		table,td,th
 		{
@@ -16,7 +16,7 @@
 	<body>
 	<form method="post">
 	<table>
-		<caption><h2> SIMPLE CALCULATOR </h2></caption>><tr><td>first number:</td><td><input type="text" name="num1" /> </td>
+		<caption><h2> SIMPLE CALCULATOR </h2></caption><tr><td>first number:</td><td><input type="text" name="num1" /> </td>
 		<td rowspan="2"><input type="submit" name="submit" value="calculate"></td></tr>
 		<tr><td> Second number: </td><td><input type="te</p></td></tr>";xt" name="num2"/> </td></tr>
 		</form>
@@ -43,4 +43,3 @@
 </body>
 </html>
 	
-			
