@@ -1,5 +1,6 @@
 <html>
 	<head>
+	<title>prgm 8a</title>
 		<style>
 		table,td,th
 		{
@@ -17,7 +18,7 @@
 	<table>
 		<caption><h2> SIMPLE CALCULATOR </h2></caption>><tr><td>first number:</td><td><input type="text" name="num1" /> </td>
 		<td rowspan="2"><input type="submit" name="submit" value="calculate"></td></tr>
-		<tr><td> Second number: </td><td><input type="text" name="num2"/> </td></tr>
+		<tr><td> Second number: </td><td><input type="te</p></td></tr>";xt" name="num2"/> </td></tr>
 		</form>
 		
 		<?php
@@ -25,12 +26,12 @@
 		{
 			$num1=$_POST['num1'];	
 			$num2=$_POST['num2'];	
-			if(is_numeric($num1) andis_numeric($num2))
+			if(is_numeric($num1) and is_numeric($num2))
 			{
-				echo"<tr><td> addition:</tr></td><p>".($num1+$num2)."</p></td>";
-				echo"<tr><td> subtraction:</tr></td><p>".($num1-$num2)."</p></td>";
-				echo"<tr><td> multiplication:</tr></td><p>".($num1*$num2)."</p></td>";
-				echo"<tr><td> divison:</tr></td><p>".($num1/$num2)."</p></td>";
+				echo"<tr><td> addition:</td><td><p>".($num1+$num2)."</p></td></tr>";
+				echo"<tr><td> subtraction:</td><td><p>".($num1-$num2)."</p></td></tr>";
+				echo"<tr><td> multiplication:</td><td><p>".($num1*$num2)."</p></td></tr>";
+				echo"<tr><td> divison:</td><td><p>".($num1/$num2)."</p></td></tr>";
 				echo"</table>";
 			}
 			else
